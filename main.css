@@ -1,0 +1,112 @@
+.main{
+    width: 100%;
+
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    border-radius: 8px;
+    /* border: 2px solid black; */
+}
+.logo{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.menu{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-size: 16px;
+}
+.btn{
+    width: 25%;
+    display: flex;
+    gap: 20px;
+    align-items:center ;
+    justify-content: end;
+
+}
+.btn button{
+    padding: 10px;
+    border-radius: 10px;
+    border: solid 2px black;
+    background-color: rgb(111, 198, 230);
+    color: black;
+
+    font-weight: 700;
+}
+.btn button:hover{
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+.menu a:hover{
+    color: rgb(45, 74, 220);
+    transition: 0.4s;
+
+}
+.section-1{
+    width: 100%;
+    display: flex;
+    /* align-items: center;      */
+    
+
+
+
+    
+}
+.box1{
+    width:30%;
+    display: flex;
+    justify-content: center;
+}
+.card{
+    width: 100%;
+    /* background-color: rgb(205, 52, 52); */
+    /* margin: auto; */
+    display: flex; 
+    justify-content: center;
+   
+    margin-top: 100px;
+}
+.cards{
+    width: 60%;
+    text-align: center;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-radius: 0 25px 0 25px;
+    
+}
+.cards img{
+    width:40%;
+    border: 2px solid rgb(133, 23, 23);
+    border-radius: 100px;
+    background-color: burlywood ;
+}
+.box2{
+    /* background-color: rgb(45, 74, 220); */
+    width: 20%;
+    margin: 0 0 35px 0;
+
+}
+
+.box2 a{
+    text-decoration: none;
+    color: blue;
+    font-weight: 700;
+    font-size: 30px;    
+}
+.box2 h1{
+    font-size: 40px;
+    font-weight: 700;
+}
+
